@@ -21,7 +21,7 @@ h1 {
     font-family: 'Rajdhani', sans-serif; 
     font-size: 5vh;
     color: #F9F8EE;
-    margin: 50px 0;
+    margin: 100px 0 50px 0;
     text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.712);
 }
 
@@ -50,13 +50,8 @@ h1 strong {
 .foto-perfil {
     width: 20vh;
     height: 20vh;
-    border: solid 10px #F9F8EE;
     border-radius: 50%;
 
-}
-
-.foto-perfil:hover {
-    border-color: #FFA7D9;
 }
 
 h2 {
@@ -73,7 +68,7 @@ a {
     text-decoration: none;
     font-family: 'Rajdhani', sans-serif;
     font-size: 2.7vh;
-    color: #2F354E;
+    color: #1b1e2c;
     font-weight: bold;
 
 }
@@ -84,7 +79,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #FF2470;
+    background-color: #ad1c4f;
     margin: 25px;
     border-radius: 60px;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.733);
@@ -103,6 +98,6 @@ li:hover {
 footer p {
     margin: 30px;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 25px;
+    font-size: 2.4vh;
     color: #F9F8EE;
 }
