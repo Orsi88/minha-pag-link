@@ -9,7 +9,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#2F354E, #1E2131);
+    background-color: #1E2131;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@ body {
 
 h1 {
     font-family: 'Rajdhani', sans-serif; 
-    font-size: 6vh;
+    font-size: 5vh;
     color: #F9F8EE;
     margin: 50px 0;
     text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.712);
@@ -61,9 +61,9 @@ h1 strong {
 
 h2 {
     font-family: 'Oranienbaum', serif;
-    font-size: 5vh;
+    font-size: 4.5vh;
     color: #1091B3;
-    margin: 5vh 0;
+    margin: 4vh 0;
     text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.712);
 }
 
