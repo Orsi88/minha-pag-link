@@ -74,7 +74,7 @@ a {
 
 }
 
-li {
+li, .portifolio-temporario  {
     width: 40vh;
     height: 6.5vh;
     display: flex;
@@ -94,7 +94,10 @@ li:hover {
     transform: scale(1.05);
 }
 
-
+.portifolio-temporario:hover {
+    filter: brightness(50%);
+    transform: scale(1.05);
+}
 
 footer p {
     margin: 30px;
