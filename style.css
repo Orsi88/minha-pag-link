@@ -74,7 +74,7 @@ a {
 
 }
 
-li, .portifolio-temporario  {
+li {
     width: 40vh;
     height: 6.5vh;
     display: flex;
@@ -94,14 +94,36 @@ li:hover {
     transform: scale(1.05);
 }
 
-.portifolio-temporario:hover {
-    filter: brightness(50%);
-    transform: scale(1.05);
-}
-
-footer p {
+ p {
     margin: 30px;
     font-family: 'Rajdhani', sans-serif;
     font-size: 2.4vh;
     color: #F9F8EE;
+}
+
+.carregando {
+    animation: animacao 3s infinite;
+    width: 3vh;
+    height: 3vh;
+    border: solid 15px #ad1c4f;
+    border-top-color: #fd5e96;
+    border-radius: 50%;
+}
+
+@keyframes animacao {
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+.portifolio-temporario {
+    margin: 10vh;
+    background-color: #ad1c4f;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.portifolio-temporario:hover {
+    filter: brightness(50%);
+    transform: scale(1.1);
 }
