@@ -169,12 +169,12 @@ li:hover {
 
 .area-1 h1 {
     text-shadow: none;
-    margin-left: 50px;
-
+    margin-left: 30px;
+    font-size: 35px;
 }
 
 .base-curriculo .area-2 {
-    width: 50px;
+    width: 30px;
     height: 150vh;
     background-color: #FF2470;
     position: absolute;
