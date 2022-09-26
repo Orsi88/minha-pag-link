@@ -136,3 +136,75 @@ li:hover {
     align-items: center;
     text-align: center;  
 }
+
+.curriculo {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-curriculo {
+    width: 900px;
+    height: 90vh;
+    background-color: #F9F8EE;
+    box-shadow: 8px 8px 12px black;
+    position: relative;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+}
+
+.base-curriculo .area-1 {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-1 h1 {
+    text-shadow: none;
+    margin-left: 50px;
+
+}
+
+.base-curriculo .area-2 {
+    width: 50px;
+    height: 150vh;
+    background-color: #FF2470;
+    position: absolute;
+}
+
+.base-curriculo .area-3 {
+    width: 80%;
+    padding: 5px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.area-3 h3 {
+    font-family: 'Oranienbaum', serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.area-3 p {
+    color: black;
+    margin: 5px;
+    text-align: justify;
+}
+
+@media (max-width: 900px) {
+    .base-curriculo {
+        width: 90%;
+    }
+}
